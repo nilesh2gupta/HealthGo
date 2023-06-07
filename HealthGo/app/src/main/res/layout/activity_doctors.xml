@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EEEE"
+    tools:context=".Doctors">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="270dp"
+        android:src="@drawable/bottombackground"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="-220dp"
+        android:src="@drawable/top_intro_background"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#2196F3">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOUR DOCTOR"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#F1EEEE"
+            android:textSize="24sp"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:translationX="202dp"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="25dp"
+        android:elevation="50dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="460dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/cardiologist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cardiologist"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARDIOLOGIST"
+            android:gravity="center"
+            android:translationY="130dp"
+            android:textStyle="bold"
+            android:textColor="#090908"
+            android:textSize="15sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        app:cardCornerRadius="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:elevation="50dp"
+        android:translationY="200dp"
+        android:layout_marginBottom="460dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/dermatologist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dermatologist"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DERMATOLOGIST"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:translationY="130dp"
+            android:textColor="#070707"
+            android:textSize="15sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="25dp"
+        android:translationY="200dp"
+        android:translationX="202dp"
+        android:elevation="50dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="460dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/physician"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/general_physician"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GENERAL PHYSICIAN"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:translationY="130dp"
+            android:textColor="#050505"
+            android:textSize="15sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="25dp"
+        android:elevation="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="460dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/gyancologist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gynaecologist"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GYNAECOLOGIST"
+            android:gravity="center"
+            android:translationY="130dp"
+            android:textStyle="bold"
+            android:textColor="#090908"
+            android:textSize="15sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="25dp"
+        android:translationY="400dp"
+        android:elevation="50dp"
+        android:translationX="101dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="460dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/dentist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dentist"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DENTIST"
+            android:textStyle="bold"
+            android:translationY="130dp"
+            android:textColor="#090908"
+            android:textSize="15sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

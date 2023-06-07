@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1079204013407",
+    "project_id": "healthgo-2c148",
+    "storage_bucket": "healthgo-2c148.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079204013407:android:170dc74e857f14aed902ea",
+        "android_client_info": {
+          "package_name": "com.example.healthgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079204013407-klftjoiobfigiif0bevtd6ngbsfjn8m9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthgo",
+            "certificate_hash": "809b45f64b9583a9040c7cd7e0e1aa3eb3238c69"
+          }
+        },
+        {
+          "client_id": "1079204013407-sv4nmscv833ftm65iv4onmh1d3ltnp1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjgfKjFe5unqwzsKsBZHh0wjRfWjD7yFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079204013407-sv4nmscv833ftm65iv4onmh1d3ltnp1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

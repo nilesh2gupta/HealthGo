@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optHome"
+        android:title="Homes"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/optVideoCall"
+        android:title="Video Call"
+        android:icon="@drawable/baseline_video_call_24"/>
+
+
+    <item
+        android:id="@+id/optSetting"
+        android:title="Settings"
+        android:icon="@drawable/baseline_settings_24"/>
+    <item
+        android:id="@+id/opteditprofile"
+        android:title="Edit Profile"
+        android:icon="@drawable/baseline_person_24"/>
+    <item
+        android:id="@+id/optLogout"
+        android:title="Logout"
+        android:icon="@drawable/baseline_logout_24"/>
+
+
+
+</menu>

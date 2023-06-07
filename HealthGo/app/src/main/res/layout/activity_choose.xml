@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EEEE"
+    tools:context=".Choose">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        app:cardBackgroundColor="#3162E8"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Welcome"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#F1EEEE"
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:translationY="150dp"
+        app:cardElevation="11dp"
+        android:translationX="70dp"
+        app:cardCornerRadius="110dp"
+        tools:ignore="MissingConstraints"
+        app:cardBackgroundColor="#A16F6F">
+
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/hospital"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/doctoroption"
+           />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#3E1111"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:translationY="400dp"
+        android:translationX="70dp"
+        app:cardElevation="11dp"
+        app:cardCornerRadius="110dp"
+        tools:ignore="MissingConstraints"
+        app:cardBackgroundColor="#A16F6F">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/patientimg"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:translationY="90dp"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#3E1111"
+            android:gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:translationY="-280dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/top_intro_background"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="260dp"
+        android:src="@drawable/bottom_intro_background"/>
+
+
+</RelativeLayout>

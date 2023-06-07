@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EEEE"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="270dp"
+        android:src="@drawable/bottombackground"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/top_background_blue"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:translationY="10dp"
+        app:cardBackgroundColor="#6F7EDC"
+        app:cardCornerRadius="850dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE YOUR CONCERN"
+            android:translationX="50dp"
+            android:translationY="20dp"
+            android:textColor="#F6D008"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="208dp"
+        android:layout_height="192dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="331dp"
+        app:neumorph_shapeType="pressed">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="146dp"
+            android:layout_height="111dp"
+
+            android:translationY="20dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/ambulance" />
+
+        <Button
+            android:id="@+id/ambulance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambulance"
+            android:background="@drawable/btn_register"
+            android:translationX="8dp"
+            android:translationY="119dp" />
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="195dp"
+        android:layout_height="191dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="331dp"
+        app:neumorph_shapeType="pressed">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:translationY="20dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/hospitalbed" />
+
+        <Button
+            android:id="@+id/bookbed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_register"
+            android:text="Book Bed"
+            android:translationX="30dp"
+            android:translationY="120dp" />
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/medicinecard"
+        android:layout_width="185dp"
+        android:layout_height="184dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="129dp"
+        app:neumorph_shapeType="pressed">
+
+        <Button
+            android:id="@+id/medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine"
+            android:background="@drawable/btn_register"
+            android:translationX="25dp"
+            android:translationY="110dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="116dp"
+            android:layout_height="102dp"
+            android:translationX="20dp"
+            android:translationY="17dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/medicine" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="218dp"
+        android:layout_height="190dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="125dp"
+        app:neumorph_shapeType="pressed">
+
+        <Button
+            android:id="@+id/doctorcall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_register"
+            android:text="Doctor"
+            android:translationX="25dp"
+            android:translationY="120dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="152dp"
+            android:layout_height="124dp"
+
+            android:translationY="20dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/onlinedoctor" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="681dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+
+        android:text="@string/the_older_you_get_the_more_fragile_you_understand_life_to_be_i_think_that_s_good_motivation_for_getting_out_of_bed_joyfully_each_day"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

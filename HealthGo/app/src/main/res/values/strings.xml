@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HealthGo</string>
+    <string name="the_older_you_get_the_more_fragile_you_understand_life_to_be_i_think_that_s_good_motivation_for_getting_out_of_bed_joyfully_each_day">The older you get,the more fragile you understand life to be.I think that,s good motivation for getting out of bed joyfully each day.</string>
+
+    <string name="opendrawer">Open navigation drawer</string>
+    <string name="closedrawer">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

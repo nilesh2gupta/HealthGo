@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginDoctor"
+    android:background="#F1EEEE">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="270dp"
+        android:src="@drawable/bottom_intro_background"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="-220dp"
+        android:src="@drawable/top_intro_background"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:translationY="80dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/receptionistlottie" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="62dp"
+        android:paddingTop="200dp"
+        android:paddingBottom="101dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="#00040C"
+        app:cardCornerRadius="210dp"
+        app:contentPadding="11dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#061440"
+            android:fontFamily="cursive"
+            android:paddingTop="11dp"
+            android:text="24X7 HealthCare"
+            android:textColor="#ED0808"
+            android:textSize="34dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="55dp"
+
+        android:translationX="20dp"
+        android:layout_marginTop="300dp"
+        >
+        <EditText
+
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:hint="USER EMAIL"
+            android:textSize="15sp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="55dp"
+
+        android:translationX="20dp"
+        android:layout_marginTop="370dp"
+
+        >
+        <EditText
+            android:id="@+id/password"
+            android:password="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_key_24"
+            android:hint="PASSWORD"
+            android:textSize="15sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="55dp"
+
+        android:translationX="20dp"
+        android:layout_marginTop="220dp"
+
+        >
+        <EditText
+            android:id="@+id/hosid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_local_hospital_24"
+            android:hint="HOSPITAL NAME"
+            android:textSize="15sp"
+           />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+        <Button
+            android:id="@+id/loginbtn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_register"
+            android:text="LOGIN"
+            android:translationX="100dp"
+            android:translationY="490dp"
+            android:textSize="44sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:translationY="560dp">
+        <TextView
+            android:id="@+id/forgetpassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="#CF1818"
+            android:text="Forgot  password?"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:translationY="660dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="70dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#CF1818"
+        android:text="Don't have an Account?"/>
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="75dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#D6D8E1"
+        android:text="SIGNUP"/>
+   </LinearLayout>
+
+
+
+
+</RelativeLayout>
